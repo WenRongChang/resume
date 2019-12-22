@@ -58,18 +58,11 @@ span {
       right: 0;
       content: '';
       background: rgba(0, 0, 0, 0.4); }
-  @media screen and (max-width: 768px) {
-    #colorlib-page {
-      padding-top: 5em; } }
 
 #colorlib-blog {
   padding: 0.1em 0;
   clear: both;
   position: relative; }
-  @media screen and (max-width: 768px) {
-    #colorlib-blog
-     {
-      padding: 5em 0; } }
 
 
 .services-img,
@@ -283,9 +276,9 @@ span {
       background: #FFE9E3;
       color: #000;
       padding: 20px 10px;
-      font-size: 12px;
+      font-size: 15px;
       text-transform: uppercase;
-      letter-spacing: 4px;
+      letter-spacing: 2.5px;
       -webkit-transition: 1s;
       -o-transition: 1s;
       transition: 1s;
@@ -456,6 +449,49 @@ span {
       right: 18px;
       visibility: visible;
       opacity: 1; }
+
+
+      .progress-wrap h4 {
+        margin: 1.5rem 0 ; }
+      
+      .progress {
+        height: 6px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        background: #f2f3f7;
+        overflow: visible; }
+      
+      .progress-bar {
+        background: #358cd3;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        font-size: 12px;
+        line-height: 1.2;
+        color: #000;
+        font-weight: 600;
+        text-align: right;
+        position: relative;
+        overflow: visible;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        border-radius: 8px; }
+        .progress-bar:after {
+          position: absolute;
+          top: -2px;
+          right: 0;
+          width: 10px;
+          height: 10px;
+          content: '';
+          background: #358cd3;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          border-radius: 50%; }
+        .progress-bar span {
+          position: absolute;
+          top: -22px;
+          right: 0; }
 
 .colorlib-nav-toggle {
   cursor: pointer;
