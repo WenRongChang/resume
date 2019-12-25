@@ -288,12 +288,29 @@ span {
       -o-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
       box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21); }
     .article .desc h2 {
-      font-size: 24px; }
+      font-size: 24px; 
+    margin-bottom: 1rem;}
       .article .desc h2 a {
         text-decoration: none;
         color: #000; }
   .article:hover .meta {
     background: #fff; }
+    .article .desc p{
+      margin-bottom: 0.5rem;
+      text-align: justify;
+    }
+
+    .article .desc p a,
+    .resume-content p a{
+      text-decoration: none;
+      color: #868e96;
+      border-bottom: 1px solid #bd5d38;
+    }
+    .article .desc p a :hover,
+    .resume-content p a:hover{
+      text-decoration: none;
+      border-bottom: 1px solid #bd5d38;
+    }
 
 #colorlib-testimony .owl-theme .owl-dots .owl-dot.active span,
 #colorlib-testimony .owl-theme .owl-dots .owl-dot:hover span {
@@ -703,6 +720,13 @@ input[type="text"] {
 .js .animate-box {
   opacity: 0; }
 
+  .btn-por{
+
+  color: #868e96;
+      border: 1px solid #000;
+      background: transparent !important; 
+      margin-top: 2.5rem;
+    }
   
   .btn-ending {
       color: #868e96;
