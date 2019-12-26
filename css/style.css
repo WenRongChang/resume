@@ -299,6 +299,10 @@ span {
       margin-bottom: 0.5rem;
       text-align: justify;
     }
+    .resume-content p,
+    #awards li{
+      text-align: justify;
+    }
 
     .article .desc p a,
     .resume-content p a{
