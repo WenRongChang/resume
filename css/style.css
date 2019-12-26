@@ -300,7 +300,8 @@ span {
       text-align: justify;
     }
     .resume-content p,
-    #awards li{
+    #awards li,
+    #about p{
       text-align: justify;
     }
 
